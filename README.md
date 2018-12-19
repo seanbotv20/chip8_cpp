@@ -8,12 +8,16 @@ Currently all it does is load a program into memory and then print the instructi
 
 ## Building
 I've tested the build system and program on MinGW, your milage may vary.
-```mkdir Build
+```
+mkdir Build
 cd Build
-cmake ..```
+cmake ..
+```
 
 ## Running
 
 Chip8 accepts chip8 programs in raw format (8-bit instructions in little endian)
 
-`chip8 "<path to chip8 program>"`
+```
+chip8 "<path to chip8 program>"`
+```
